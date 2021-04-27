@@ -1,16 +1,25 @@
+To go to the welcome page simple go 
 
-For the chat system copy and paste the following link in your browser.
+http://www-test.cs.umanitoba.ca/~prakul/cgi-bin/welcome.cgi
 
-http://www-test.cs.umanitoba.ca/~prakul/cgi-bin/chat_2.cgi
+All the cgi files are in cgi-bin on my umanitoba server.
 
-Note: You need to send atleast one text message to start the chat (to start the setInterval).
-Also, sometimes as you press the deleteMessage button it does not gets deleted so you need to press it again....This is because sometimes internet is slow and the XHR request is still loading(pending) and the structure of the code is written in a way that you need to wait and then delete the message.
-
-Please wait for some time after sending and deleting the messages (If deleting message doesnt work press the button again).
+There is a names.txt which is storing all the names and their attending status in cgi-bin.
 
 
-To run the chat system on your server, do the following.
+The working of the system is following.
 
-1. Paste all the files in your 
+First you click on the link and go to welcome page.
+you will put your name and status for the event.
+If your name is not valid or you did not mark you status, you will shown an error.
+After putting the information the system will take you to the required replied page.
+In replied page you have another option to change your attending status.
+
+After you reply for invitation, If the user reloads the page, they will see the same response and hence they do not need to submit the response again.
+The Person who sends the invitation can also see the names and their attending status.
+
+To run the invitation system on your server, paste all the files to your cgi bin and change the permissions to chmod 711 for all the files.
+
+Thanks and enjoy :)
 
 
