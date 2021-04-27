@@ -18,3 +18,11 @@ In replied page you have another option to change your attending status.
 After you reply for invitation, If the user reloads the page, they will see the same response and hence they do not need to submit the response again.
 The Person who sends the invitation can also see the names and their attending status.
 
+
+To run the Invitation system on your server,
+
+- You need to copy all of the files and pase it on your server's CGI bin.
+- change the permissions to run the files, (I am using chmod 711).
+
+Thanks,
+Enjoy :)
