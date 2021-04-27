@@ -1,4 +1,4 @@
-To go to the welcome page simple go 
+To go to the welcome page please use the following link
 
 http://www-test.cs.umanitoba.ca/~prakul/cgi-bin/welcome.cgi
 
